@@ -2,4 +2,5 @@
     <h2>{{ hero.name | uppercase }}</h2>
     <div><span>ID: </span>{{ hero.id }}</div>
     <div><span>Name: </span><input [(ngModel)]="hero.name" placeholder="Name"></div>
+    <button (click)="goBack()">go back</button>
 </div>
